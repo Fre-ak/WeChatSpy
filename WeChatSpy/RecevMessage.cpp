@@ -62,7 +62,7 @@ VOID send_to_py_server(DWORD msgAdd)
 	DWORDToUnicode(*((DWORD *)msg_type_add), msg_type);  //消息类型
 	DWORDToUnicode(*((DWORD *)self_add), self);  //消息来源，自己发还是别人发的
 
-	wchar_t buff[0x1000] = { 0 };
+	wchar_t buff[0x2000] = { 0 };
 	wchar_t type[0x100] = L"1";  //消息类型，1代表发送给python server的是文本消息，用于python server对数据的解析
 	////获取微信进程pid
 	CHAR pid_str[0x100] = { 0 };
