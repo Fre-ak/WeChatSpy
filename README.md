@@ -4,7 +4,7 @@ PC微信Hook逆向程序：Hook到微信消息，然后与Python程序进行交�
 * [https://github.com/MaoningGuan/PyWeChat](https://github.com/MaoningGuan/PyWeChat)
 ## 更新日志
 ## 1.0.0.8:
-* 增大接收消息的buffer大小，修复接收卡片消息出错的bug。
+* 增大接收消息的buffer大小，修复接收图文消息出错的bug。
 ## 1.0.0.7:
 * 增加self类型说明
 * 增加msg_type类型说明
